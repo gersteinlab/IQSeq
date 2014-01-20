@@ -1,5 +1,7 @@
 This package contains the source code for isoform quantification with RNA-seq data, along with a few C++ library dependencies. 
 
+Users can download the required boost library from: http://archive.gersteinlab.org/boost/
+
 To compile the source code, go to the solve directory and type make from command line. Then in .bashrc file, add "export LD_LIBRARY_PATH= PATH_TO_PACKAGE/gsl/lib/:PATH_TO_PACKAGE/cppunit/lib/" and "export PATH=PATH_TO_PACKAGE/solve/bin:$PATH"
 
 To run the pipeline, type solve from command line.And the parameters required are shown: 
